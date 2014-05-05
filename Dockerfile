@@ -5,6 +5,8 @@ RUN yum -y install mysql-server
 RUN yum -y install httpd
 #git
 RUN yum -y install git
+#wget
+RUN yum -y install wget
 
 #supervisor
 RUN wget http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
